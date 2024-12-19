@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nakuru Huduma SocialHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #0078D4;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+        }
+        nav {
+            background: #f4f4f9;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: #0078D4;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+        .payment-button {
+            display: inline-block;
+            background: #0078D4;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        .payment-button:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="image.png" alt="Nakuru Huduma SocialHub Logo">
+        <h1>Welcome to Nakuru Huduma SocialHub</h1>
+        <p>Your trusted government service provider</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to Nakuru Huduma SocialHub. We provide efficient and reliable access to essential government services.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Nakuru Huduma SocialHub is committed to connecting you with key government services quickly and easily.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>NTSA (National Transport and Safety Authority)</li>
+                <li>KRA (Kenya Revenue Authority, Tax Filing and Compliance Certificate)</li>
+                <li>Immigration services</li>
+                <li>DCI (Directorate of Criminal Investigations, Good Conduct)</li>
+				<li>Registration of Persons (Nation ID</li>
+				<li>SHA (Register, pay, Add Dependents here)</li>
+				<li>NSSF (National Social Security Fund) - Contributions, benefits inquiries & Statements</li>
+				<li>Helb (Register, Apply for Helb Loan and get Compliance Certificate)</li>
+				<li>DCI (KENYA Police Abstract)</li>
+				<li>Online Working (Register with us for lessons and guide to real-time academic writing options)</li>
+				
+            </ul>
+            <a href="#payment" class="payment-button">Pay for Services: Paybill No. 884219 A/c No. 991702</a>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: 0784452243//</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nakuru Huduma SocialHub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
